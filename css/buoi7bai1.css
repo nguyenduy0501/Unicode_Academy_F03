@@ -1,0 +1,162 @@
+@font-face{
+    font-family: 'BeVietnamPro-Regular';
+    src: url(/font/Be_Vietnam_Pro/BeVietnamPro-Regular.ttf);
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 1rem;
+}
+
+.content {
+    background: #fff;
+}
+
+.content .content-info {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.content .okrs{
+    color: red;
+}
+
+.section {
+    border: 1px solid #fff;
+    width: 1100px;
+    height: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;/* định dạng khoảng cách giữa các item và giữa item và margin*/
+    flex-direction: row; /*chọn hướng hàng hoặc cột*/
+    flex-wrap: wrap;
+    align-items: center;
+    align-content:center;
+    gap: 125px 30px;
+    flex-grow: 1;
+    /* overflow: auto; */
+
+    line-height: 26px;
+}
+
+.section .taptrung h4 {
+    color: ;
+    text-transform: uppercase;
+}
+
+.section-taptrung, .section-canchinh, .section-camket {
+    border: 1px solid #fff;
+    width: 345px;
+    height: 600px;
+    /* margin: 0 auto; */
+    padding: 70px 20px;
+    /* flex: 1 1 calc(100% / 3 - 10px); */
+    /* flex-basis: calc(100% / 4 - 2px); */
+    background: #ffffff;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 3px #eee6e6;
+
+}
+
+.section-theodoi, .section-keodan {
+    border: 1px solid #fff;
+    width: 430px;
+    height: 490px;
+    /* margin: 200px 20px; */
+    padding: 70px 20px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 3px #eee6e6;
+}
+
+.section-theodoi {
+    margin-left: 102px;
+}
+
+.section-keodan {
+    margin-right: 102px;
+}
+
+.section .stt {
+    width: 90px;
+    height: 90px;
+    font-size: 120px;
+    margin-left: 200px;
+
+    /* position: absolute; */
+    /* font-size: large; */
+    background-color: #fff;    
+    color:blue;
+    opacity: 0.1;
+    margin-top: 50px;
+
+    /* z-index: -1; */
+
+}
+
+.section .stt4, .section .stt5 {
+    width: 100px;
+    height: 90px;
+    font-size: 120px;
+    margin-left: 280px;
+    margin-top: 50px;
+
+    /* position: absolute; */
+    /* font-size: large; */
+    background-color: #fff;    
+    color:blue;
+    opacity: 0.1;
+    
+}
+
+.section .taptrung {
+    position: absolute;
+}
+
+.section .img{
+    width: 125px;
+    height: 125px;
+    border: 1px solid #fff;
+    border-radius: 99%;
+    margin-top: -65px;
+    margin-left: 90px;
+    position: absolute;
+    top: 0;
+    /* border-radius: 15px; */
+    box-shadow: 0px 0px 2px 5px #e9d7d7;
+    /* left: 0; */
+    /* margin-top: 0;
+    margin-left: 100px; */
+    /* display: block; */
+    /* position: fixed; */
+    /* top: 10px;
+    left: 10px; */
+}
+.img4, .section .img5 {
+    width: 125px;
+    height: 125px;
+    border: 1px solid #fff;
+    border-radius: 99%;
+    margin-top: -65px;
+    margin-left: 140px;
+    position: absolute;
+    top: 0;
+    /* border-radius: 15px; */
+    box-shadow: 0px 0px 2px 5px #e9d7d7;
+}
+
+.section .section-text{
+    font-size: 16px;
+    text-;
+}
